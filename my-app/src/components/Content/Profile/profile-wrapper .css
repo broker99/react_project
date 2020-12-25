@@ -1,0 +1,8 @@
+.divMyPosts{
+    text-align: center;
+}
+
+.divMyPosts textarea{
+    height: 150px;
+    width: 75%;
+}

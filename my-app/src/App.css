@@ -1,0 +1,20 @@
+body{
+  background-color: lightgreen;
+  padding-bottom: 50px;
+}
+.app-wrapper {
+  display: grid;
+  grid-template-rows: 60px 400px minmax(400px, auto) ;
+  grid-template-columns: 1fr 2fr 10fr 1fr;
+  grid-template-areas:'h h h h ' '. n c . ' '. . c .'  ;
+  grid-gap: 30px;
+}
+
+
+
+
+
+
+
+
+

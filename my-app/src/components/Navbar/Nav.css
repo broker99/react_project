@@ -1,0 +1,23 @@
+nav{
+    grid-area: n;
+    display: grid;
+    border-radius: 5px;
+    background-color: darkgreen;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1fr;
+    color: azure;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+}
+
+nav a.active{
+    color:gold;
+}

@@ -1,0 +1,43 @@
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr 1fr;
+    grid-template-rows: auto max-content;
+    grid-template-areas:
+            'head head head head'
+            '. avatar desc .'
+            '. mp mp .';
+    grid-gap: 20px;
+}
+
+.headImage{
+    grid-area: head;
+    }
+
+.avatarProfile{
+    grid-area: avatar;
+    }
+
+.descProfile{
+    grid-area: desc;
+}
+.descProfile h3 {
+    margin: 0;
+}
+
+.myPosts{
+    grid-area: mp;
+}
+
+.headImage img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.avatarProfile img{
+        object-fit: cover;
+        height: 150px;
+        width: 125px;
+}
